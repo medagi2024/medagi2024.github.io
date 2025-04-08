@@ -75,9 +75,12 @@
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Sponsors'}">Sponsors</router-link>
-      <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab" :class="{'selected-tab' : this.$data.page=='Years'}">
-  {{medAGIText}}
-</a>
+      <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab">
+        Visit MedAGI 2023
+      </a>
+      <a href="http://medagi.github.io/#/" target="_blank" class="navigation-tab">
+        Visit MedAGI 2025
+      </a>
     </nav>
   </div>  
   <!-- Navigation End -->
